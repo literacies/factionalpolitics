@@ -1,0 +1,236 @@
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
+  display:block;
+}
+body {
+	margin: 0 auto;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 90%;
+	color: #333333;
+	background-color: #FFF0D0;
+}
+a {
+	color: #AC4603;
+	text-decoration: none;
+	outline: none;
+}
+nav {
+	overflow: hidden;
+}
+
+li {
+	list-style: none;
+	padding: 0.5em 0;
+	margin-left:-40px;
+	clear: left;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.container {
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:960px;
+	text-align: left;
+	background-color: #ffffff;
+}
+.overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	cursor: pointer;
+	background: rgba(0,0,0,0.25);
+	z-index: 50;
+}
+
+.prev {
+	float: left;
+	cursor: pointer;
+}
+.next {
+	float: right;
+	cursor: pointer;
+}
+.email {
+	float: right;
+	cursor: pointer;
+	color: #ffffff;
+}
+a:hover,.prev:hover,.next:hover,.back:hover,.up:hover,.forward:hover{
+	text-decoration: underline;
+}
+#content{
+	clear:left;
+}
+
+#content{
+	position: relative;
+}
+#content{
+	min-height: 40em;
+}
+
+#header {
+	text-align: center;
+}
+#header h1 a{
+	color: #333333;
+}
+	
+
+#header h1 a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+
+#banner_bar{
+	position: relative;
+	background-color: #FE5E19;
+	height:80px;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#banner_bar h1{
+	font-size: 16px;
+	font-family: serif;
+	position: absolute;
+	color: #ffffff;
+	bottom: 5px;
+}
+
+#main {
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+p {
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.nav {
+	float:left;
+	display: block;
+	width:12em;
+}
+#content{
+	overflow: hidden;
+}
+.main {
+	margin-left: 12em;
+}
+
+.sup {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
+#popup_template {
+	display: none;
+}
+.popup {
+	display: none;
+}
+.popup {
+	position: absolute;
+	width: 400px;
+	background-color: #ffffff;
+	border: 1px solid #ff3300;
+	padding: 0 0.5em;
+	z-index: 102;
+	background: #fff;
+}
+.popup {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.popup_title {
+	clear: right;
+	font-weight: bold;
+}
+.close {
+	color: #AC4603;
+	float: right;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.narrow {
+	line-height: 1;
+}
+
+#bio_index li {
+	padding-top: 0em;
+	padding-bottom: 0em;
+	padding-left: 12.5em;
+	padding-right: 10.5em;
+	clear: both;
+	overflow: hidden;
+	border-top: 2px solid #CCC;
+}
+
+.b1,.name {
+	font-weight: bold;
+}
+.first_mention {
+	color: #AC4603;
+	font-weight: bold;
+}
+.name {
+	position: relative;
+	float: left;
+	width:11em;
+	margin-left: -12em;	
+	padding: 0.5em 0.5em;
+}
+.mentioned_in {
+	position: relative;
+	float: left;
+	width:9em;
+	margin-right: -11em;
+	padding: 0.5em 0.5em;
+}
+.bio_info {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0.5em 0.5em;
+}
+#footer ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+	height: 50px;
+}
+#footer ul li{
+	overflow: auto;
+	clear: none;
+}
+.back {
+	float: left;
+	cursor: pointer;
+}
+.forward {
+	float: right;
+	cursor: pointer;
+}
+.up {
+	position: absolute;
+	left: 476px;
+	cursor: pointer;
+}
+.family_tree {
+	width: 900px;
+}
