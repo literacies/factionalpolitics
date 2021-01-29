@@ -19,9 +19,9 @@ if (Modernizr.history){
 			var ref = $(this).attr("href").split('/').pop();
 			
 			if (ref.substr(0,6) === 'cartas'){
-				ref = '/letters/'+ref;
+				ref = '/factionalpolitics/letters/'+ref;
 			} else if (ref.substr(0,1) != '#') {
-				ref = '/'+ref;
+				ref = '/factionalpolitics/'+ref;
 			}
 			if (ref.indexOf('footnote')>-1){
 				get_note(this,ref);
